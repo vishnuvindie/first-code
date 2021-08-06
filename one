@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+   body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<html>
+<head>
+<style>
+
+h2 {text-align: center;}
+</style>
+</head>
+<body> 
+
+<h2 {  style="color:blue;"
+
+       style="font-family:bold;"
+
+      style="font-size:300%;">This is for practice</h2>
+
+<p    style="font-size:20px;"
+p.italic {
+    font-style: italic;
+   
+
+ }
+    style="color:black;">below are the links to open sites:</p>
+
+<p><a href="https://www.youtube.com/" target="_blank">open youtube</a></p>
+
+
