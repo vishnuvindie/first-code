@@ -37,4 +37,5 @@ p.italic {
     style="color:black;">below are the links to open sites:</p>
 
 <p><a href="https://www.youtube.com/" target="_blank">open youtube</a></p>
+<packaging>pom</packaging>
 
