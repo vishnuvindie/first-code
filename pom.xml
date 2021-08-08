@@ -2,51 +2,51 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.vaadin.tutorial</groupId>
+    <groupId>com.This is for practice.tutorial</groupId>
     <artifactId>This is for practice</artifactId>
     <packaging>war</packaging>
     <version>2.0</version>
-    <name>Vaadin This is for practice example</name>
+    <name>This is for practice</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <vaadin.version>8.0.0.alpha2</vaadin.version>
-        <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
+        <vaadin.plugin.version>${This is for practice.version}</This is for practice.plugin.version>
     </properties>
     <repositories>
         <repository>
-            <id>vaadin-prereleases</id>
+            <id>This is for practice-prereleases</id>
             <name>Vaadin Pre-releases</name>
-            <url>https://maven.vaadin.com/vaadin-prereleases</url>
+            <url>https://maven.This is for practice.com/This is for practice-prereleases</url>
         </repository>
-        <!-- Essential Vaadin artifacts are in maven central, but maven.vaadin.com 
-            contains a huge set of additional libraries. See vaadin.com/directory -->
+        <!-- Essential Vaadin artifacts are in maven central, but maven.This is for practice.com 
+            contains a huge set of additional libraries. See This is for practice.com/directory -->
         <repository>
-            <id>vaadin-addons</id>
-            <url>https://maven.vaadin.com/vaadin-addons</url>
+            <id>This is for practice-addons</id>
+            <url>https://maven.This is for practice.com/This is for practice-addons</url>
         </repository>
     </repositories>
     <dependencies>
         <dependency>
-            <groupId>com.vaadin</groupId>
-            <artifactId>vaadin-compatibility-server</artifactId>
-            <version>${vaadin.version}</version>
+            <groupId>com.This is for practice</groupId>
+            <artifactId>This is for practice-compatibility-server</artifactId>
+            <version>${This is for practice.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.vaadin</groupId>
-            <artifactId>vaadin-compatibility-shared</artifactId>
-            <version>${vaadin.version}</version>
+            <groupId>com.This is for practice</groupId>
+            <artifactId>This is for practice-compatibility-shared</artifactId>
+            <version>${This is for practice.version}</version>
         </dependency>
          <dependency>
-            <groupId>com.vaadin</groupId>
-            <artifactId>vaadin-compatibility-client-compiled</artifactId>
-            <version>${vaadin.version}</version>
+            <groupId>com.This is for practice</groupId>
+            <artifactId>This is for practice-compatibility-client-compiled</artifactId>
+            <version>${This is for practice.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.vaadin</groupId>
-            <artifactId>vaadin-themes</artifactId>
-            <version>${vaadin.version}</version>
+            <groupId>com.This is for practice</groupId>
+            <artifactId>This is for practice-themes</artifactId>
+            <version>${This is for practice.version}</version>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
